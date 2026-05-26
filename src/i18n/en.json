@@ -29,16 +29,16 @@
   },
   "home": {
     "title": "Vibe Code Tours — A guided journey into AI-paired coding",
-    "description": "A cohort-based online tour of the AI coding ecosystem, designed for Myanmar developers ready to build with Claude Code. 8 weeks. 9 students. Free.",
+    "description": "A cohort-based online tour of the AI coding ecosystem, designed for Myanmar developers ready to build with Claude Code. 8 weeks. Free.",
     "heroTitle": "AI & Vibe Coding Tour",
-    "heroStat": "8 weeks. 9 students. Free.",
+    "heroStat": "8 weeks. Free.",
     "heroSub": "A cohort-based online tour of the AI coding ecosystem, designed for Myanmar developers ready to build with Claude Code.",
     "ctaApply": "Apply for the next cohort →",
     "ctaWork": "See Cohort 1 work →",
     "card1Title": "What you'll learn",
     "card1Body": "AI-paired coding fundamentals, prompt craft, team workflows on real projects, and how to ship something useful with Claude as your pair.",
     "card2Title": "How it works",
-    "card2Body": "2-hour live sessions, twice a week, for 8 weeks. Solo instructor, 9-student cohort, 3 teams of 3. Public Tour Repo. Demo day at the end.",
+    "card2Body": "2-hour live sessions, twice a week, for 8 weeks. Solo instructor, small cohort, teams of 3. Public Tour Repo. Demo day at the end.",
     "card3Title": "Who it's for",
     "card3Body": "Beginners with terminal comfort. Intermediate devs adding AI to their toolkit. Experienced engineers curious about the AI coding landscape, not just one tool.",
     "credibility": "Free to participants · Sponsored by [list] · MIT / CC-BY-SA licensed curriculum"
@@ -137,9 +137,9 @@
   },
   "apply": {
     "title": "Apply — Vibe Code Tours",
-    "description": "Cohort 1 applications closed with 298 registrants; 9 students selected. Join the announcement list for the next cohort.",
+    "description": "Cohort 1 applications closed with 298 registrants; the cohort has been selected. Join the announcement list for the next cohort.",
     "heading": "Applications closed",
-    "closedBody": "Cohort 1 applications closed on 2026-05-17 with 298 registrants. 9 students were selected.",
+    "closedBody": "Cohort 1 applications closed on 2026-05-17 with 298 registrants.",
     "nextCohort": "Next cohort opens: announcing in early 2027.",
     "notifyHeading": "To be notified",
     "notifyList": [
