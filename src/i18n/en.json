@@ -139,18 +139,14 @@
   },
   "apply": {
     "title": "Apply — Vibe Code Tours",
-    "description": "Cohort 1 applications closed with 298 registrants; the cohort has been selected. Join the announcement list for the next cohort.",
-    "heading": "Applications closed",
-    "closedBody": "Cohort 1 applications closed on 2026-05-17 with 298 registrants.",
-    "startsBody": "Cohort 1 begins Saturday, 30 May 2026.",
-    "nextCohort": "Next cohort opens: October 2026.",
-    "notifyHeading": "To be notified",
-    "notifyList": [
-      "Watch this site",
-      "Or email ai+tour@vibecode.tours to join the announcement list"
-    ],
+    "description": "Cohort 2 applications are now open. Apply for the AI & Vibe Coding Tour starting October 2026.",
+    "heading": "Apply for Cohort 2",
+    "openBody": "Cohort 2 starts October 2026. Applications are open now.",
+    "cohort1Note": "Cohort 1 (185 builders) is in progress. Cohort 2 builds on everything we learned.",
+    "ctaApply": "Apply Now →",
+    "formUrl": "https://forms.gle/YoEDrXqYtVKexqjdA",
     "lookHeading": "What we look for",
-    "lookIntro": "(Same scoring criteria we used. Transparency builds trust.)",
+    "lookIntro": "(Same scoring criteria from Cohort 1. Transparency builds trust.)",
     "lookList": [
       "Realistic time commitment (5+ hr/week outside class)",
       "Concrete project idea (or willingness to find one)",
