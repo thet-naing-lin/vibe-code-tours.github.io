@@ -17,7 +17,9 @@
     "sponsors": "Sponsors",
     "faq": "FAQ",
     "contact": "Contact",
-    "setup": "Setup"
+    "setup": "Setup",
+    "builders": "Builders",
+    "cohort1": "Cohort 1"
   },
   "footer": {
     "rights": "© 2026 Vibe Code Tours",
@@ -440,5 +442,14 @@
     "ch0Body": "Chapter 0 runs before class: install your tools and verify your machine is ready.",
     "ch0Cta": "Open the setup guide →",
     "myPending": "[MY] Chapter detail is shown in English for now — Burmese translation pending."
+  },
+  "cohortPage": {
+    "title": "Cohort 1 Builders — Vibe Code Tours",
+    "description": "Meet the builders of Vibe Code Tours Cohort 1.",
+    "label": "The Cohort",
+    "heading": "Cohort {n} Builders",
+    "intro": "The people building with AI on this Tour. Each forked the repo, added their intro, and opened a real PR.",
+    "empty": "No builders yet. Be the first — fork the repo and add yourself.",
+    "addYourself": "Add yourself → (fork + PR)"
   }
 }

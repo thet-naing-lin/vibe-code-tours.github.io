@@ -1,0 +1,69 @@
+---
+import { getCollection, render } from "astro:content";
+import { t, getLocale, type Locale } from "../i18n/utils";
+import BuilderCard from "./BuilderCard.astro";
+
+interface Props {
+  cohort: number;
+}
+const { cohort } = Astro.props;
+
+const locale: Locale = getLocale(Astro.url.pathname);
+const s = t(locale).cohortPage;
+
+// All builders for this cohort. Render each markdown body to HTML for the card.
+const all = await getCollection("builders", (b) => b.data.cohort === cohort);
+
+// Instructors/mentors first, then builders; stable by name within group.
+const order = { instructor: 0, mentor: 1, builder: 2 } as const;
+all.sort(
+  (a, b) =>
+    order[a.data.role] - order[b.data.role] ||
+    a.data.name.localeCompare(b.data.name),
+);
+
+const builders = await Promise.all(
+  all.map(async (entry) => {
+    const { Content } = await render(entry);
+    return { entry, Content };
+  }),
+);
+---
+
+<section class="mx-auto max-w-5xl px-5 py-12 sm:px-6">
+  <p class="section-label">{s.label}</p>
+  <h1 class="mt-2 text-center text-3xl font-extrabold sm:text-4xl">
+    {s.heading.replace("{n}", String(cohort))}
+  </h1>
+  <p class="mx-auto mt-3 max-w-xl text-center text-gray-400">{s.intro}</p>
+
+  {
+    builders.length === 0 ? (
+      <p class="mt-10 text-center text-gray-600">{s.empty}</p>
+    ) : (
+      <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {builders.map(({ entry, Content }) => (
+          <BuilderCard
+            name={entry.data.name}
+            github={entry.data.github}
+            role={entry.data.role}
+            repo={entry.data.repo}
+          >
+            <Content />
+          </BuilderCard>
+        ))}
+      </div>
+    )
+  }
+
+  <div class="mt-12 text-center">
+    <a
+      href="https://github.com/vibe-code-tours/vibe-code-tours.github.io/blob/main/BUILDERS.md"
+      target="_blank"
+      rel="noopener"
+      class="btn btn-secondary"
+    >
+      {s.addYourself}
+    </a>
+  </div>
+</section>

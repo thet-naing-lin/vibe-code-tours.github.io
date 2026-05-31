@@ -1,0 +1,17 @@
+---
+import Base from "../../../layouts/Base.astro";
+import CohortBody from "../../../components/CohortBody.astro";
+import { t } from "../../../i18n/utils";
+
+export function getStaticPaths() {
+  return [{ params: { num: "1" } }];
+}
+
+const { num } = Astro.params;
+const cohort = Number(num);
+const s = t("my").cohortPage;
+---
+
+<Base title={s.title} description={s.description}>
+  <CohortBody cohort={cohort} />
+</Base>
