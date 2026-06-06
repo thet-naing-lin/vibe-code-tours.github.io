@@ -1,13 +1,13 @@
 ---
-name: Your Name
-github: githubusername
+name: Nyan Lynn Htet
+github: nyan-dev
 cohort: 1
 role: builder
-skills: ["JavaScript", "Python", "Java", "Claude Code"]
+skills: ["Data Analysis", "Python", "Claude Code", "Data Science", "Vibe Code"]
+repo: https://github.com/nyan-dev/vibe-code-tours.github.io
+linkedin: https://www.linkedin.com/in/heynyan/
 ---
-
-Hi! I'm learning to vibe-code with AI. My goal is to build and ship something
-real by Demo Day. Excited to be part of the Tour.
+I came from product management background, now turning into data science as a post grad MSc Data Science, currently obsessed with turning complex data into actual, working solutions. I’m doing entry level machine learning projects and weekend experiments. If you're down to build something cool together, just hit me up in the Discord DMs!
 
 <!--
 HOW TO ADD YOURSELF

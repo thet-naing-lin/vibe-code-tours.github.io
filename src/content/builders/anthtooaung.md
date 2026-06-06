@@ -1,13 +1,12 @@
 ---
-name: Your Name
-github: githubusername
+name: Ant Htoo Aung
+github: anthtooaung
 cohort: 1
 role: builder
-skills: ["JavaScript", "Python", "Java", "Claude Code"]
+skills: ["JavaScript", "PHP", "Java", "Laravel"]
 ---
 
-Hi! I'm learning to vibe-code with AI. My goal is to build and ship something
-real by Demo Day. Excited to be part of the Tour.
+Hi! I'm learning to vibe-code with AI. My goal is to create websites and applications that are useful and beneficial to society. I'm excited to be part of this tour, and I'll give my best effort to learn new skills, collaborate with others, and build something meaningful.
 
 <!--
 HOW TO ADD YOURSELF
