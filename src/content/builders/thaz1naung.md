@@ -1,13 +1,9 @@
 ---
-name: Saw Kapaw Say (KP)
-github: KiZINnO
+name: Thazin Aung
+github: thaz1naung
 cohort: 1
 role: builder
-skills: ["JavaScript", "Python", "Claude Code"]
-repo: https://github.com/KiZINnO/vibe-code-tours
-x: KiZINnO
-linkedin: Saw Kapaw Say
-website: https://github.com/KiZINnO
+skills:  [".Net", "C#", "Angular","MSSQL","MySQL"]
 ---
 
 Hi! I'm learning to vibe-code with AI. My goal is to build and ship something
