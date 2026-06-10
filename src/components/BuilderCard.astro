@@ -59,6 +59,7 @@ const links = [
 >
   <article
     tabindex="0"
+    aria-label={`${name}, ${role}`}
     class:list={[
       "card flex cursor-pointer flex-col outline-none transition-shadow duration-200",
       "group-hover:absolute group-hover:inset-x-0 group-hover:top-0 group-hover:z-30",
@@ -72,8 +73,8 @@ const links = [
         <img
           src={avatar}
           alt={`${name} avatar`}
-          width="56"
-          height="56"
+          width="52"
+          height="52"
           loading="lazy"
           class="avatar-img"
         />
@@ -83,13 +84,17 @@ const links = [
         <a
           href={`https://github.com/${github}`}
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           class="font-mono text-xs text-gray-500 no-underline hover:text-accent-500"
         >
           @{github}
         </a>
       </div>
-      <span class:list={["tier", roleClass, "ml-auto shrink-0"]} title={role}>
+      <span
+        class:list={["tier", roleClass, "ml-auto shrink-0"]}
+        title={role}
+        aria-label={`Role: ${role}`}
+      >
         {role[0].toUpperCase()}
       </span>
     </div>
@@ -104,7 +109,7 @@ const links = [
             <a
               href={c.url}
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               class="cert-ico-link"
               title={`${c.label} — verified`}
               aria-label={c.label}
@@ -152,7 +157,7 @@ const links = [
           <a
             href={l.href}
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             class="text-gray-500 no-underline hover:text-accent-500"
           >
             {l.label}
