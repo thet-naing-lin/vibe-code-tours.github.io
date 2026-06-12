@@ -1,9 +1,9 @@
 ---
-name: Your Name
-github: githubusername
+name: Hsu Myat Moe
+github: hsumyatm7308
 cohort: 1
 role: builder
-skills: ["JavaScript", "Python", "Java", "Claude Code"]
+skills: ["JavaScript", "PHP/Laravel", "Java", "Claude Code"]
 ---
 
 Hi! I'm learning to vibe-code with AI. My goal is to build and ship something

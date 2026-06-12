@@ -1,6 +1,6 @@
 ---
-name: Your Name
-github: githubusername
+name: KoMyo
+github: komyo335
 cohort: 1
 role: builder
 skills: ["JavaScript", "Python", "Java", "Claude Code"]
